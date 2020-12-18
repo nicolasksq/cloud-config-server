@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ar.com.porloschicos</groupId>
-    <artifactId>cloud-config</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>cloud-config</name>
+    <artifactId>cloud-config-server</artifactId>
+    <version>0.0.1</version>
+    <name>cloud-config-server</name>
     <description>Cloud config for PLC</description>
 
     <properties>
@@ -29,6 +29,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+            <version>3.0.0-M5</version>
         </dependency>
     </dependencies>
 
